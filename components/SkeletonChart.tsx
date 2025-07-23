@@ -3,11 +3,11 @@ import { useTheme } from '@/core/providers/ThemeProvider';
 import { LinearGradient } from 'expo-linear-gradient';
 import { Animated, DimensionValue, View } from 'react-native';
 
-type Props = {
+type SkeletonLoaderProps = {
   translateX: Animated.AnimatedInterpolation<string | number>;
 };
 
-export default function SkeletonLoaderComponent({ translateX }: Props) {
+export default function SkeletonLoaderComponent({ translateX }: SkeletonLoaderProps) {
 
 const { skeleton } = useTheme();
  

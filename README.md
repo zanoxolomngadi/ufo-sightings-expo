@@ -184,14 +184,14 @@ UFO-SIGHTINGS/
 
 | Mobile App | PWA |
 | :--: | :--: |
-| <img src="./assets/images/app-image-1.png" width="220" /> | <img src="./assets/images/app-image-5.png" width="220" /> |
-| <img src="./assets/images/app-image-2.png" width="220" /> | <img src="./assets/images/app-image-6.png" width="220" /> |
+| <img src="./assets/images/app-image-1.png" width="220" /> | <img src="./assets/images/app-image-6.png" width="220" /> |
+| <img src="./assets/images/app-image-2.png" width="220" /> | <img src="./assets/images/app-image-5.png" width="220" /> |
 | <img src="./assets/images/app-image-3.png" width="220" /> |   |
 | <img src="./assets/images/app-image-4.png" width="220" /> |   |
 
 </div>
 
 
- 
 
+ 
 
