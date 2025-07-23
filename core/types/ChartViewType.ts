@@ -1,0 +1,1 @@
+export type ChartViewType = 'bar' | 'line' | 'pie';
