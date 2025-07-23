@@ -180,9 +180,14 @@ UFO-SIGHTINGS/
 ```
 ## Screenshots 
 
-## Mobile App                                                           ##PWA 
+| Mobile App | PWA |
+| :--: | :--: |
+| <img src="./assets/images/app-image-1.png" width="220" /> | <img src="./assets/images/app-image-5.png" width="220" /> |
+| <img src="./assets/images/app-image-2.png" width="220" /> | <img src="./assets/images/app-image-6.png" width="220" /> |
+| <img src="./assets/images/app-image-3.png" width="220" /> |   |
+| <img src="./assets/images/app-image-4.png" width="220" /> |   |
 
-![UFO Sightings ios image 1](./assets/images/app-image-1.png)           ![UFO Sightings PWA image 5](./assets/images/app-image-5.png)
-![UFO Sightings ios image 2](./assets/images/app-image-2.png)           ![UFO Sightings PWA image 5](./assets/images/app-image-6.png)
-![UFO Sightings ios image 3](./assets/images/app-image-3.png)   
-![UFO Sightings ios image 4](./assets/images/app-image-4.png)
+
+ 
+
+
