@@ -22,7 +22,7 @@ A small mobile dashboard built with **React Native**, **Expo**, and **TypeScript
 
 ## Decisions worth Mentioning
 
-1. The application uses a flat component structure for fast simplified  development. The choice was made due to the create of a few components and a primary index(Used as Dashboard Screen).
+1. The application uses a flat component structure for fast simplified  development. The choice was made due to the creation of a few components and a primary index(Used as Dashboard Screen).
    - This keeps the navigation simple to use. 
 
 2. Single test file 
@@ -178,9 +178,11 @@ UFO-SIGHTINGS/
 ├── tsconfig.json
 ├── yarn.lock
 ```
-## Screenshots
+## Screenshots 
 
-![UFO Sightings ios image 1](./assets/images/app-image-1.png)
-![UFO Sightings ios image 2](./assets/images/app-image-2.png)
-![UFO Sightings ios image 3](./assets/images/app-image-3.png)
+## Mobile App                                                           ##PWA 
+
+![UFO Sightings ios image 1](./assets/images/app-image-1.png)           ![UFO Sightings PWA image 5](./assets/images/app-image-5.png)
+![UFO Sightings ios image 2](./assets/images/app-image-2.png)           ![UFO Sightings PWA image 5](./assets/images/app-image-6.png)
+![UFO Sightings ios image 3](./assets/images/app-image-3.png)   
 ![UFO Sightings ios image 4](./assets/images/app-image-4.png)

@@ -35,11 +35,7 @@ export default function Index() {
     
      < HeaderTextComponent title={title} padding='mb-4'/>
 
-      <PreviousNextComponent
-        weekStart={weekStart}
-          setWeekStart={setWeekStart}
-          color={colors.secondary}
-      />
+   
 
     {loading ? (
       <>
@@ -49,6 +45,13 @@ export default function Index() {
 ) : error ? (
      <ErrorUIComponent message={error}/>
 ) : (
+
+      <>
+      <PreviousNextComponent
+            weekStart={weekStart}
+            setWeekStart={setWeekStart}
+            color={colors.text}
+          />
        <ChartsUIComponent
             view={view}
             labels={labels}
@@ -56,6 +59,7 @@ export default function Index() {
             pieData={pieData}
             onViewChange={setView}
           />
+        </>
 )}
 </ScrollView>
     </View>
