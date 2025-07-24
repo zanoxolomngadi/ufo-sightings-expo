@@ -58,7 +58,7 @@ A small mobile dashboard built with **React Native**, **Expo**, and **TypeScript
 
 ---
  
- ## 📈 Performance Considerations
+ ## 📈 Performance Considerations Applied
  1. Skeleton loaders 
       -  Used to minimize layout shift during data fetching.
  2. Chart "conditioning"  
@@ -66,6 +66,10 @@ A small mobile dashboard built with **React Native**, **Expo**, and **TypeScript
  3. TanQuery
      - Data caching. Alternative way to manage fetched data state
 
+  4. Axios
+     - Response data is already in json format
+     - Allows for the adding of interceptors so therefore easy to set API timeouts
+        
 ---
 
 ## 🏁 Get started
