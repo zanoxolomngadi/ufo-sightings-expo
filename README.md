@@ -102,10 +102,10 @@ To learn more about developing your project with Expo and the libraries used, pl
 - [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
 - [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 - [TanQUery documentation](https://tanstack.com/query/latest/docs/framework/react/installation)
-- [Axios](https://axios-http.com/docs/intro)
-- [NativeWind](https://www.nativewind.dev)
+- [Axios](https://axios-http.com/docs/intro) - Learn the know hows on why to use axios [Axios Medium](https://dev.to/shieldstring/how-to-use-axios-interceptors-to-handle-api-error-responses-2gn1) 
+- [NativeWind](https://www.nativewind.dev) - Quick and easy installation. To further knowledge look at tailwinds documentation [tailwind](https://tailwindcss.com)
 
- 🗒️ Note All icons used on the readMe can be found [emojipeda](https://emojipedia.org/test-tube 
+ 🗒️ Note All icons used on the readMe can be found [emojipeda](https://emojipedia.org/test-tube) 
 ---
 ## 🏗️ Project Structure
 ```
