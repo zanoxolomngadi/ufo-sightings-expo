@@ -17,7 +17,8 @@ A small mobile dashboard built with **React Native**, **Expo**, and **TypeScript
 - **react-native-chart-kit**
 - **date-fns** (date parsing/grouping)
 - **Context API** (`ThemeProvider`, `LangProvider`)
-- **Axios** **TanQuery**(for API calls)
+- **Axios**for (API calls)
+- **TanQuery** for API caching and alternative way to manage state management
 ---
 
 ## 💭 Decisions worth Mentioning
@@ -103,7 +104,7 @@ To learn more about developing your project with Expo and the libraries used, pl
 - [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 - [TanQUery documentation](https://tanstack.com/query/latest/docs/framework/react/installation)
 - [Axios](https://axios-http.com/docs/intro) - Learn the know hows on why to use axios [Axios Medium](https://dev.to/shieldstring/how-to-use-axios-interceptors-to-handle-api-error-responses-2gn1) 
-- [NativeWind](https://www.nativewind.dev) - Quick and easy installation. To further knowledge look at tailwinds documentation [tailwind](https://tailwindcss.com)
+- [NativeWind](https://www.nativewind.dev) - Quick and easy installation. To further knowledge look at tailwind's documentation [tailwind](https://tailwindcss.com)
 
  🗒️ Note All icons used on the readMe can be found [emojipeda](https://emojipedia.org/test-tube) 
 ---
