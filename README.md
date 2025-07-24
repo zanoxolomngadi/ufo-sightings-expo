@@ -18,7 +18,7 @@ A small mobile dashboard built with **React Native**, **Expo**, and **TypeScript
 - **date-fns** (date parsing/grouping)
 - **Context API** (`ThemeProvider`, `LangProvider`)
 - **Axios**for (API calls)
-- **TanQuery** for API caching and alternative way to manage state management
+- **TanQuery** for API data caching and alternative way to manage fetched data state management
 ---
 
 ## 💭 Decisions worth Mentioning
@@ -30,6 +30,10 @@ A small mobile dashboard built with **React Native**, **Expo**, and **TypeScript
     - Due to a few tests files being created, the singular test file helps for example purposes.
 
 3. Index.ts files within components, hooks, providers is used to simple and standardize imports.
+
+4. Data caching using TanQuery
+   The application data caching can be easily performed with TanQuery. Quick and easy to setup.
+   - Application requires no real use case for state management
 
 ----
 
@@ -59,6 +63,8 @@ A small mobile dashboard built with **React Native**, **Expo**, and **TypeScript
       -  Used to minimize layout shift during data fetching.
  2. Chart "conditioning"  
       - Charts are shown only when active, which helps keep the app fast and responsive.  
+ 3. TanQuery
+     - Data caching. Alternative way to manage fetched data state
 
 ---
 
