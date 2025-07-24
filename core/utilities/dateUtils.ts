@@ -1,4 +1,5 @@
 import { addDays, format, isSameWeek, parse } from 'date-fns';
+import { UfoSighting } from '../types/sightings';
 
 const parseDate = (dateStr: string) => {
   return parse(dateStr, 'dd/MM/yyyy', new Date());
@@ -10,7 +11,7 @@ export function getWeekDays(weekStart: Date): string[] {
   );
 }
 
-export function groupByWeek(data: any[], weekStart: Date): { labels: string[]; values: number[] } {
+export function groupByWeek(data: UfoSighting[], weekStart: Date): { labels: string[]; values: number[] } {
   const counts: Record<string, number> = {};
 
   data.forEach((item) => {
@@ -30,7 +31,7 @@ export function groupByWeek(data: any[], weekStart: Date): { labels: string[]; v
 }
 
 
-export function groupByWeekday(data: { date: string; sightings: number }[]) {
+export function groupByWeekday(data: UfoSighting[]) {
   const counts: Record<string, number> = {};
 
   data.forEach((item) => {

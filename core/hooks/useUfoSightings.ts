@@ -15,16 +15,13 @@ async function fetchSightings(): Promise<UfoSighting[]> {
     signal: AbortSignal.timeout?.(10_000),
   });
 
-  console.log('data', res.data);
    return res.data;
 }
 
 export default function useUfoSightings() {
   const { isLoading, error, data } = useQuery({
     queryKey: ['ufoSightingsData'],
-     queryFn: fetchSightings,
-    staleTime: 5 * 60 * 1000, 
-    retry: 1, 
+     queryFn: fetchSightings
   })
 
 

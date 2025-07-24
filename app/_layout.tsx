@@ -10,10 +10,16 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import 'react-native-reanimated';
 import { Platform } from 'react-native';
 
+
+const DELAY_TIME =  5 * 60 * 1000; //This is what 5 minutes looks like in milliseconds
+
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
-      gcTime: 1000 * 60 * 60 * 24, 
+      gcTime: DELAY_TIME,
+      retry: 1, 
+       staleTime: DELAY_TIME, 
+       refetchOnWindowFocus: true,
     },
   },
 })
