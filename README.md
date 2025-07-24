@@ -17,7 +17,7 @@ A small mobile dashboard built with **React Native**, **Expo**, and **TypeScript
 - **react-native-chart-kit** (Efficent React Native chart)
 - **date-fns** (date parsing/grouping)
 - **Context API** (`ThemeProvider`, `LangProvider`)(Standard practise in order to avoid 'prop drilling')
-- **Axios**for (API calls)
+- **Axios**(API calls)
 - **TanQuery** for API data caching and alternative way to manage fetched data state management
 ---
 
