@@ -23,7 +23,7 @@ A small mobile dashboard built with **React Native**, **Expo**, and **TypeScript
 
 ## 💭 Decisions worth Mentioning
 
-1. The application uses a flat component structure for fast simplified  development. The choice was made due to the creation of a few components and a primary index(Used as Dashboard Screen).
+1. The application uses a flat component structure for fast simplified  development. The choice was made due to the creation of a few components and a primary index.tsp(Used as Dashboard Screen).
    - This keeps the navigation simple to use. 
 
 2. Single test file 
@@ -32,7 +32,7 @@ A small mobile dashboard built with **React Native**, **Expo**, and **TypeScript
 3. Index.ts files within components, hooks, providers is used to simple and standardize imports.
 
 4. Data caching using TanQuery
-   The application data caching can be easily performed with TanQuery. Quick and easy to setup.
+   - Fetched data caching can be easily performed with TanQuery. Quick and easy to setup.
    - Application requires no real use case for state management
 
 ----
