@@ -20,7 +20,7 @@ A small mobile dashboard built with **React Native**, **Expo**, and **TypeScript
 - **Axios** **TanQuery**(for API calls)
 ---
 
-## Decisions worth Mentioning
+## 💭 Decisions worth Mentioning
 
 1. The application uses a flat component structure for fast simplified  development. The choice was made due to the creation of a few components and a primary index(Used as Dashboard Screen).
    - This keeps the navigation simple to use. 
@@ -32,7 +32,7 @@ A small mobile dashboard built with **React Native**, **Expo**, and **TypeScript
 
 ----
 
-## Considerations for large applications not included in this application
+## 🗳️ Considerations for large applications not included in this application
 1. The use of a more modular component structure would work great.
     - As the app grows, each component will move into its own folder for better separation of concerns.
    
@@ -45,26 +45,23 @@ A small mobile dashboard built with **React Native**, **Expo**, and **TypeScript
       ``` 
   2. Organising the applications based of features and not just components 
       - Organizing the app by feature (e.g., sightings, user, settings) will make it easier to scale and maintain in the long run.    
-  3. Including services folder for seperation of  api services 
-      - A dedicated services/directory is best to be introduced to centralize API calls. This helps to separate data fetching logic from UI concerns. It also allows for easier testing and mocking of network requests.
-  4. Crash Analytics
+  3. Crash Analytics
       - Helps monitor and track app crashes in real time, making it easier to identify and fix issues quickly.
-  5. Tracking event
+  4. Tracking event
       - Intergrating event tracking to monitor user interactions
 
 
 ---
  
- ## Performance Considerations
+ ## 📈 Performance Considerations
  1. Skeleton loaders 
       -  Used to minimize layout shift during data fetching.
  2. Chart "conditioning"  
       - Charts are shown only when active, which helps keep the app fast and responsive.  
 
-
 ---
 
-## Get started
+## 🏁 Get started
 
 1. Install dependencies
 
@@ -79,7 +76,7 @@ A small mobile dashboard built with **React Native**, **Expo**, and **TypeScript
    ```
 
 ---
-## Testing
+## 🧪 Testing
 - **Jest** 
 - **@testing-library/react-native** 
 
@@ -98,13 +95,17 @@ In the output, you'll find options to open the app in a
 
 
 ---
-## Learn more
+## 👁️ Learn more
 
-To learn more about developing your project with Expo, look at the following resources:
+To learn more about developing your project with Expo and the libraries used, please review links below:
 
 - [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
 - [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- [TanQUery documentation](https://tanstack.com/query/latest/docs/framework/react/installation)
+- [Axios](https://axios-http.com/docs/intro)
+- [NativeWind](https://www.nativewind.dev)
 
+ 🗒️ Note All icons used on the readMe can be found [emojipeda](https://emojipedia.org/test-tube 
 ---
 ## 🏗️ Project Structure
 ```
@@ -195,5 +196,5 @@ UFO-SIGHTINGS/
 
 
 
- 
+
 
