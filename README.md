@@ -17,7 +17,7 @@ A small mobile dashboard built with **React Native**, **Expo**, and **TypeScript
 - **react-native-chart-kit**
 - **date-fns** (date parsing/grouping)
 - **Context API** (`ThemeProvider`, `LangProvider`)
-- **Axios** (for API calls)
+- **Axios** **TanQuery**(for API calls)
 ---
 
 ## Decisions worth Mentioning
@@ -156,11 +156,13 @@ UFO-SIGHTINGS/
 │   │   ├── ChartViewType.ts
 │   │   └── SupportedLang.ts
 │   │
-│   └── utilities/               # Pure utility/helper functions
-│       ├── tests/
-│       │   └── dateUtils.test.ts
-│       └── dateUtils.ts
-│
+│   ├──  utilities/               # Pure utility/helper functions
+│   |    ├── tests/
+│   |    │   └── dateUtils.test.ts
+│   |    └── dateUtils.ts
+│   |──services
+|         ├── api.ts              #Api request using axios(Set time out 10 seconds)
+| 
 ├── node_modules/                # Project dependencies (auto-managed)
 ├── scripts/                     # Optional scripts folder (currently empty)
 ├── .gitignore

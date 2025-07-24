@@ -1,29 +1,32 @@
-import { useEffect, useState } from 'react';
-import axios from 'axios';
 
-const API_URL = 'https://my-json-server.typicode.com/Louis-Procode/ufo-Sightings/ufoSightings';
+import { useQuery } from '@tanstack/react-query';
+import { api } from '../services/api';
+
+
+
+type UfoSighting = {
+date: string,
+sightings: number
+}
+
+
+async function fetchSightings(): Promise<UfoSighting[]> {
+  const res = await api.get<UfoSighting[]>('', {
+    signal: AbortSignal.timeout?.(10_000),
+  });
+
+  console.log('data', res.data);
+   return res.data;
+}
 
 export default function useUfoSightings() {
-  const [data, setData] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<null | string>(null);
+  const { isLoading, error, data } = useQuery({
+    queryKey: ['ufoSightingsData'],
+     queryFn: fetchSightings,
+    staleTime: 5 * 60 * 1000, 
+    retry: 1, 
+  })
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const res = await axios.get(API_URL);
-        setData(res.data);
-        setError(null);
-      } catch (err: any) {
-        console.error(err);
-        setError('Failed to fetch sightings');
-      } finally {
-        setLoading(false);
-      }
-    };
 
-    fetchData();
-  }, []);
-
-  return { data, loading, error };
+   return { data: data ?? [], loading: isLoading, error };
 }

@@ -1,5 +1,3 @@
-
-
 import { useLang } from '@/core/providers';
 import { ScreenTitles } from '@/core/texts/screenTitles';
 import { addWeeks, format, startOfWeek } from 'date-fns';
@@ -10,10 +8,6 @@ import { groupByWeek, groupByWeekday } from '../core/utilities/dateUtils';
 import { ChartsUIComponent, ErrorUIComponent, HeaderTextComponent, LoadingUIComponent, PreviousNextComponent } from '@/components';
 import { useShimmerAnimation, useUfoSightings } from '@/core/hooks';
 import "../global.css";
-
-
-
-
 
 
 export default function Index() {
@@ -43,7 +37,7 @@ export default function Index() {
       </>
  
 ) : error ? (
-     <ErrorUIComponent message={error}/>
+     <ErrorUIComponent message={error.message}/>
 ) : (
 
       <>

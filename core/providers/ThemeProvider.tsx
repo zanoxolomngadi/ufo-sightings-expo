@@ -1,7 +1,17 @@
 import { ReactNode, createContext, useContext } from 'react';
 
+export type ChartConfig = {
+  backgroundColor: string;
+  backgroundGradientFrom: string;
+  backgroundGradientTo: string;
+  decimalPlaces: number;
+  color: (opacity?: number) => string;
+  labelColor: () => string;
+};
+
+
 type ThemeContextType = {
-  chartConfig: any;
+  chartConfig: ChartConfig;
   colors: {
     background: string;
     secondary: string;
